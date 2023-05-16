@@ -1,0 +1,110 @@
+body{
+    background-image: url(img/gokuu.jpg);
+    background-repeat: no-repeat;
+    display: flex; flex-wrap: wrap;
+    
+    
+
+}
+#Todo{
+    
+    margin-top: auto;
+    border-radius: .5em;
+    display: flex;	flex-wrap: wrap;
+    width: 1080px;
+    height: 960px;
+    box-shadow: 5px 8px 12px rgb(84, 113, 129);
+    
+    
+}
+#Encabezado{
+    background-image: url(img/encabezado.png);
+    background-position: center; 	
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 250px;
+    padding: 10px;
+    box-shadow: 5px 8px 12px rgb(194, 191, 191);
+    margin: auto;
+    border-radius: .5em;
+    text-align: center;
+}
+#grid{
+    border-radius: .5em;
+    margin: auto;
+    margin-left: auto;
+    width: 640px;
+    height: 640px;
+    padding: 0;
+    border-radius: .5em;
+    display: flex;	flex-wrap: wrap;
+}
+img{
+    
+    margin: 20px;;
+    width: 100px;
+    height: 100px;
+    
+}
+#Login {
+    background-image: url(img/nube\ .png);
+    background-repeat: no-repeat;
+    background-position-y: bottom ;
+    background-position-x: calc(17%);
+    background-size: 140%;
+    width: 200px;
+    height: 620px;
+    padding: 10px;
+    box-shadow: 5px 8px 12px rgb(194, 191, 191);
+    margin: auto;
+    border-radius: .5em;
+    text-align: center;
+}
+#Caja{
+    padding: 0;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin: auto;
+    border-radius: .5em;
+}
+h1{
+    color: rgb(253, 253, 253);
+    text-shadow: 0 0 5px rgb(26, 23, 23), 0 0 10px rgb(15, 15, 15), 0 0 15px rgb(235, 220, 220), 0 0 20px #1e72d1, 0 0 30px #1e72d1, 0 0 40px #1e72d1, 0 0 55px #1e72d1, 0 0 75px #1e72d1;
+    font-size: 300%;
+}
+h2{
+    
+    text-align: auto;
+    color: rgb(12, 8, 8);
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #384350, 0 0 30px #1e72d1, 0 0 40px #a9adb6, 0 0 55px #1e72d1, 0 0 75px #1e72d1;
+    font-size: 300%;
+}
+
+h3{
+    text-align: center;
+    margin: 0;
+    color: rgb(20, 14, 14);
+    text-shadow: 0 0 5px , 0 0 15px #FFF,  0 0 40px #7f7f88, 0 0 55px #9494a8, 0 0 75px #111113;
+}
+
+
+.Rangos{
+    
+    margin-top: initial;
+    text-align: center;
+    margin-left: 110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Rango{
+   
+    width: 165px;
+    height: 165px;
+
+}
+
+
+
+
